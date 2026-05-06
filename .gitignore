@@ -1,0 +1,70 @@
+# ============================================================
+# Global Ignore Rules
+# ============================================================
+
+# Ignore ALL hidden files (.*)
+.*
+!.gitignore
+!.github/
+
+# Ignore Python cache & temp
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.tmp
+*.log
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore editor configs
+.vscode/
+.idea/
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# ============================================================
+# KEEP ONLY THESE FILE TYPES
+# ============================================================
+
+# Keep Python source code
+!*.py
+
+# Keep Jupyter notebooks
+!*.ipynb
+
+# Keep CSV data files
+!*.csv
+
+# Keep images (plots, dashboards)
+!*.png
+!*.jpg
+!*.jpeg
+!*.svg
+
+# Keep Markdown documentation
+!*.md
+
+# Keep LICENSE
+!LICENSE
+
+# ============================================================
+# KEEP PROJECT STRUCTURE
+# ============================================================
+
+# Allow folders to be tracked
+!src/
+!reports/
+!reports/plots/
+!reports/results/
